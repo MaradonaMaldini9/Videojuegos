@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mi Web Site</title>
+    <link rel="stylesheet" href="Pie.css" />
+  </head>
+
+  <body>
+    <nav class="topheader">
+      <a href="#">
+        <img src="imagen/mando.jpg" alt="BBVA Logo" height="50" width="100" />
+      </a>
+
+      <ul class="Menu-Horizontal">
+        <li><a href="#">Personas</a></li>
+        <li><a href="#">Empresas</a></li>
+        <li>
+          <a href="#">Productos</a>
+          <ul class="Menu-Vertical">
+            <li><a href="#">Tarjetas</a></li>
+            <li><a href="#">Cuentas</a></li>
+            <li><a href="#">Préstamos</a></li>
+            <li><a href="#">Seguros</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#">Abre tu cuenta</a></li>
+        <li><a href="#">Contáctanos</a></li>
+      </ul>
+    </nav>
+    <section class="seccion-personas">
+      <div class="div-gral-persona">
+        <div class="div-pers-texto">
+          <h2>Seccion Personas</h2>
+          <p>
+            La creación de los videojuegos combina arte, tecnología y narrativa
+            para dar vida a experiencias interactivas. Todo comienza con una
+            idea o concepto, donde se define la historia, el estilo visual y la
+            mecánica principal del juego. Luego, los diseñadores crean bocetos y
+            guiones que guían el desarrollo visual y narrativo. Los
+            programadores se encargan de construir el motor del juego,
+            programando los movimientos, las físicas y las reglas que lo hacen
+            funcionar. Al mismo tiempo, los artistas digitales diseñan los
+            personajes, escenarios y animaciones. Finalmente, los compositores y
+            diseñadores de sonido agregan música y efectos que refuerzan la
+            inmersión.
+          </p>
+
+          <p>
+            Una vez terminado el desarrollo, el videojuego pasa por una fase de
+            pruebas para detectar errores y mejorar la jugabilidad. Este
+            proceso, conocido como “testing”, es clave para garantizar una buena
+            experiencia al usuario. Posteriormente, el juego se lanza al
+            mercado, ya sea en plataformas físicas o digitales. Sin embargo, el
+            trabajo no termina ahí: los equipos siguen mejorando el producto
+            mediante actualizaciones y parches. Así, la creación de un
+            videojuego se convierte en un esfuerzo colaborativo entre artistas,
+            programadores, diseñadores y productores. En conjunto, transforman
+            una simple idea en una experiencia capaz de emocionar a millones de
+            personas.
+          </p>
+        </div>
+
+        <div class="div-pers-img">
+          <img src="imagen/malvinas.jpg" />
+        </div>
+      </div>
+    </section>
+    <section class="seccion-empresa">
+      <div class="div-gral-empresa">
+        <div class="div-empresa-texto">
+          <h2>Seccion Empresa</h2>
+          <p>
+            La creación de los videojuegos es un proceso complejo que combina
+            creatividad, ingeniería y diseño. Todo comienza con una idea
+            inicial, donde se define el género, la historia y el público
+            objetivo. A partir de ello, los diseñadores elaboran un guion y los
+            primeros bocetos conceptuales que servirán como base para el arte y
+            la jugabilidad. Los programadores construyen el código del juego,
+            desarrollando motores gráficos, físicas y sistemas de interacción.
+            Los artistas visuales crean personajes, escenarios y animaciones que
+            dan vida al mundo digital. Paralelamente, los compositores y
+            diseñadores de sonido producen efectos auditivos y bandas sonoras
+            que refuerzan la atmósfera del juego.
+          </p>
+
+          <p>
+            Durante el desarrollo, el equipo realiza constantes pruebas de
+            jugabilidad para detectar errores y mejorar la experiencia del
+            usuario. Esta fase es crucial para ajustar la dificultad, el
+            equilibrio y la fluidez del juego. Una vez completado, se lanza al
+            mercado mediante plataformas digitales como Steam, PlayStation Store
+            o Xbox Live. Sin embargo, el trabajo continúa después del
+            lanzamiento, ya que los desarrolladores publican actualizaciones y
+            contenido adicional. Los videojuegos modernos también integran
+            inteligencia artificial y mundos abiertos cada vez más realistas. En
+            conjunto, este proceso convierte una simple idea en una experiencia
+            interactiva capaz de conectar emocionalmente con millones de
+            jugadores en todo el mundo.
+          </p>
+        </div>
+
+        <div class="div-empresa-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Xjm65wkvvck?si=PxlKy6bwUpysmP29"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion-formulario">
+      <div class="div-cont-formulario">
+        <h2>Formulario de Registro</h2>
+        <p>Complete todos los campos</p>
+        <form class="formulario">
+          <!--imput LABEL-->
+          <div class="campo">
+            <label for="nombre">Nombres completos</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ingrese sus nombres"
+            />
+          </div>
+          <!--imput-->
+          <div class="campo">
+            <label for="nombre">Pais</label>
+            <select id="pais" name="pais">
+              <option value="">seleccione un pais</option>
+              <option value="peru">Peru</option>
+              <option value="colombia">Colombia</option>
+              <option value="argentina">Argentina</option>
+              <option value="mexico">Mexico</option>
+            </select>
+          </div>
+          <!--RADIO-->
+          <div class="campo">
+            <label>interes</label>
+            <ul class="lista derechos">
+              <li>
+                <label
+                  ><input type="checkbox" rang="interes" value="a" />aaaa</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" rang="interes" value="b" />bbbb</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" rang="interes" value="c" />cccc</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" rang="interes" value="d" />dddd</label
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!--RADIO-->
+          <div class="campo">
+            <label>sexo</label>
+            <ul class="lista-radio">
+              <li>
+                <label
+                  ><input
+                    type="radio"
+                    rang="sexo"
+                    value="masculino"
+                  />Masculino</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="radio"
+                    rang="sexo"
+                    value="femenino"
+                  />Femenino</label
+                >
+              </li>
+            </ul>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <!-- PIE DE PAGINA -->
+
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img
+              src="Imagenes/senati-logo.png"
+              alt="Logo"
+              class="footer-logo"
+            />
+            <p>SENATI</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="/Documentos/3.politica-privacidad.pdf"
+              >Política de Privacidad</a
+            >
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="#">Términos y Condiciones</a>
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="/Documentos/LeyProteccionDatos.pdf">Protección de Datos</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
